@@ -1,8 +1,10 @@
 📚 Subash Matric Hr. Sec. School - Official Website
-Welcome to the official website repository of Subash Matric Higher Secondary School! 🏫✨ Our school is dedicated to providing quality education and fostering all-round development for students. This website serves as an online platform to showcase our institution, academics, facilities, and much more.
+                                Welcome to the official website repository of Subash Matric Higher Secondary School! 🏫✨
+Our school is dedicated to providing quality education and fostering all-round development for students. 
+This website serves as an online platform to showcase our institution, academics, facilities, and much more.
 
 🌟 Live Demo
-🚀 View Website (Replace # with the actual live URL)
+🚀 View Website https://subash-matric-hr-sec-school.vercel.app/
 
 📌 Features
 ✅ Interactive and user-friendly design
@@ -33,7 +35,7 @@ sh
 Copy
 Edit
 npm start
-Your website should now be running at http://localhost:3000 🚀
+Your website should now be running at [http://www.SubashSchool.org](https://subash-matric-hr-sec-school.vercel.app/) 🚀
 
 📸 Screenshots
 ![school site](https://github.com/user-attachments/assets/9b995685-2548-4a1b-a6b8-f78d51d9321a)
