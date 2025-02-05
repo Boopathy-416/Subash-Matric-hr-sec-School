@@ -45,8 +45,8 @@ Your website should now be running at [http://www.SubashSchool.org](https://suba
 📍 Subash Matric Hr. Sec. School
 📌 Address: Murugampalyam  Tiruppur-641 687
 📧 Email: Update soon
-📞 Phone: [Your Contact Number]
-🌐 Website: [Your School Website Link]
+📞 Phone:  + 91 709442 9166
+🌐 Website: https://subash-matric-hr-sec-school.vercel.app/
 
 🎉 Contributions & Support
 Feel free to fork this repository and contribute! If you like this project, give it a ⭐️ on GitHub!
