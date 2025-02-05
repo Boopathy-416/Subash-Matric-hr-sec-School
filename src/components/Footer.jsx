@@ -118,7 +118,7 @@ export default function Footer() {
           ></iframe>
           <div className="mt-2 border-t border-gray-700 pt-1 text-center">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} Subash School Tirupur. All rights reserved.
+              © {new Date().getFullYear()} Subash School Tiruppur. All rights reserved.
             </p>
             <p className="text-gray-500 text-sm">
               <a href="/privacy-policy" className="hover:text-white">
