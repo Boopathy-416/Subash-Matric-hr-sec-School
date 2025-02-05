@@ -1,6 +1,9 @@
 import React from "react";
 import {} from "react-router-dom";
 import { Facebook, Twitter, Linkedin , LocateIcon } from "lucide-react";
+import logo from '/assets/icons/boses.png'
+
+
 
 export default function Footer() {
   return (
@@ -9,7 +12,7 @@ export default function Footer() {
         {/* Logo Section */}
        
         <div className="md:col-span-3 border-r-[1px] border-[#424242]  ">
-        <img src="public/assets/icons/boses.png" width="200px" height="auto" className="h-auto md:align-start  align-center " alt="logo"></img>
+        <img src={logo} width="200px" height="auto" className="h-auto md:align-start  align-center " alt="logo"></img>
           <a href="/" className="text-md uppercase font-semibold">
             SUBASH MATRIC Higher <br /> secondary school , Tirupur-641 687
           </a>
@@ -113,7 +116,7 @@ export default function Footer() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2082.060005240115!2d77.31987088641216!3d11.082288431288315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9077acc144a35%3A0x5c2fac3089534ffa!2sSubash%20Matriculation%20Higher%20Secondary%20School!5e0!3m2!1sen!2sin!4v1737963553916!5m2!1sen!2sin"
             allowfullscreen=""
             loading="lazy"
-            className="rounded-sm w-[350px] rounded-sm h-[320px] md:w-[1250px] md:h-[250px] border-black border-[3px] p-5 "
+            className="rounded-sm w-[340px]  rounded-sm h-[320px] md:w-full md:h-[250px] border-black border-[3px] p-5 "
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
           <div className="mt-2 border-t border-gray-700 pt-1 text-center">

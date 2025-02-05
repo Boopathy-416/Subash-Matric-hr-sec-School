@@ -126,6 +126,7 @@ import React from "react";
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuTrigger, NavigationMenuContent, NavigationMenuLink } from "./Ui/NavigationMenu";
 import Button from "./Ui/Button";
 import ListItem from "./Ui/ListItem";
+import MobileNavigation from "./MobileNavigation";
 
 const academicsPages = [
   { title: "Curriculum", href: "/curriculum", description: "Our comprehensive academic programs" },
@@ -156,7 +157,8 @@ const careerPages = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white shadow-md">
+    <>
+    <header className="sticky hidden lg:block top-0 z-50 w-full border-b bg-white shadow-md">
       <div className="container mx-auto flex h-16 items-center px-4">
         <img src="/assets/icons/boses.png" width="80px"></img>
         <a href="/" className="flex items-center gap-2 text-xl font-semibold">
@@ -258,5 +260,7 @@ export default function Navbar() {
         </div>
       </div>
     </header>
+    <MobileNavigation />
+    </>
   );
 }
