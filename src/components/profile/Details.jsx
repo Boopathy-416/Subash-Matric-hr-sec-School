@@ -51,7 +51,7 @@ export default function Detail() {
         <div className="flex items-center gap-4 mb-16 opacity-80">
           <div className="h-px bg-black flex-1" />
           <p className="text-lg uppercase tracking-wider">
-            Subash Matric Higher Secondary School
+            Subash Matric Hr Sec School
           </p>
           <div className="h-px bg-black flex-1" />
         </div>
@@ -65,13 +65,13 @@ export default function Detail() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto text-center">
           <div
             className="rounded-md  pointer-events-none p-6 "
-            style={{
-              backgroundImage: "url('/assets/images/ok book.png')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+            // style={{
+            //   backgroundImage: "url('/assets/images/ok book.png')",
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            // }}
           >
-            <div className="container backdrop-blur-xs py-4">
+            <div className="container backdrop-blur-xs  rounded-sm bg-[1c1c1c] border-[2px]  hover:bg-white hover:text-black hover:scale-105 hover:rounded-md shadow-[0_0_10px_rgba(0,0,0,1)] hover:shadow-[0_0_10px_rgba(0,0,0,1)] px-3 py-4">
               <h2 className="text-xl font-bold mb-2">Academic Excellence</h2>
               <p className="text-black font-semibold ">
                 We nurture top-ranking students with a rigorous curriculum and
@@ -80,14 +80,14 @@ export default function Detail() {
             </div>
           </div>
           <div
-            className="rounded-md pointer-events-none p-6 "
-            style={{
-              backgroundImage: "url('/assets/images/win.png')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+            className="rounded-md cursor-pointer  p-6 "
+            // style={{
+            //   backgroundImage: "url('/assets/images/win.png')",
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            // }}
           >
-            <div className="container backdrop-blur-xs py-4">
+            <div className="container backdrop-blur-xs  rounded-sm bg-[1c1c1c] border-[2px] px-2 hover:bg-white hover:text-black hover:scale-105 hover:rounded-md shadow-[0_0_10px_rgba(0,0,0,1)] hover:shadow-[0_0_10px_rgba(0,0,0,1)]  py-4">
               <h2 className="text-xl font-bold mb-2">
                 State-of-the-Art Facilities
               </h2>
@@ -98,14 +98,14 @@ export default function Detail() {
             </div>
           </div>
           <div
-            className="rounded-md pointer-events-none  p-6 "
-            style={{
-              backgroundImage: "url('/assets/images/future.png')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+            className="rounded-md pointer-events-none    p-6 "
+            // style={{
+            //   backgroundImage: "url('/assets/images/future.png')",
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            // }}
           >
-            <div className="container backdrop-blur-xs py-4">
+            <div className="container backdrop-blur-xs rounded-sm  border-[2px]  hover:bg-white hover:text-black hover:scale-125 hover:rounded-md shadow-[0_0_10px_rgba(0,0,0,1)] hover:shadow-[0_0_10px_rgba(0,0,0,1)] py-4">
               <h2 className="text-xl font-bold mb-2">Future Leaders</h2>
               <p>
                 We instill knowledge, discipline, and confidence to shape the
